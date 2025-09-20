@@ -1,36 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Samio Portfolio
 
-First, run the development server:
+
+
+A modern, sleek, and fully responsive portfolio built with **Next.js 15**, **React 19**, **Tailwind CSS 4**, and **TypeScript**.  
+Showcasing my journey as a Full‑Stack Developer, my projects, skills, and ways to get in touch.
+
+---
+
+## ✨ Features
+
+- **Beautiful UI** with dark mode support and smooth scroll animations (Framer Motion).  
+- **Dynamic typewriter effect** for the hero heading.  
+- **Responsive layout** for mobile, tablet, and desktop.  
+- **Project showcase** with image cards and hover effects.  
+- **Timeline** visualizing education & experience.  
+- **Contact form** (client‑side validation) with social links.  
+- **CV download** – one‑click PDF download.  
+- **Reusable UI components** (`Button`, `Card`, `Input`, `Textarea`) powered by Shadcn UI and `class-variance-authority`.  
+- **Tailwind theming** with custom colors, gradients, and glass‑morphism effects.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|---------------|
+| **Framework** | Next.js 15 (App Router) |
+| **Language** | TypeScript, React 19 |
+| **Styling** | Tailwind CSS 4, Tw‑animate‑css, custom CSS variables |
+| **UI** | Shadcn UI, Radix UI, Lucide Icons |
+| **Animations** | Framer Motion, CSS keyframes |
+| **Build Tools** | ESLint, PostCSS, Vite (via Next) |
+| **Deployment** | Vercel (zero‑config) |
+| **Version Control** | Git + GitHub Actions (optional) |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** (v20+)
+- **pnpm** (or npm/yarn)
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/samio11/samio_portfolio.git
+cd samio_portfolio
+pnpm install   # or `npm install` / `yarn`
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev       # starts the dev server at http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build
 
-## Learn More
+```bash
+pnpm build     # creates an optimized production build
+pnpm start     # runs the production server
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+samio_portfolio/
+├─ .gitignore
+├─ README.md                # ← you’re reading it!
+├─ components.json
+├─ next.config.ts
+├─ package.json
+├─ postcss.config.mjs
+├─ public/
+│   ├─ Logo.svg
+│   ├─ Samio_cv.pdf
+│   ├─ … (icons & images)
+├─ src/
+│   ├─ app/
+│   │   ├─ layout.tsx
+│   │   ├─ page.tsx
+│   │   └─ globals.css
+│   ├─ components/
+│   │   ├─ About.tsx
+│   │   ├─ Contact.tsx
+│   │   ├─ Hero.tsx
+│   │   ├─ Projects.tsx
+│   │   ├─ Skills.tsx
+│   │   ├─ Timeline.tsx
+│   │   └─ ui/ (Button, Card, Input, Textarea)
+│   └─ lib/utils.ts
+└─ tsconfig.json
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📸 Screenshots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Hero | About | Projects |
+|------|-------|----------|
+| ![Hero](https://raw.githubusercontent.com/samio11/samio_portfolio/a916a7b7eca18bb2ae77375cad3d895c280971ef/public/p1.png) | ![About](https://raw.githubusercontent.com/samio11/samio_portfolio/a916a7b7eca18bb2ae77375cad3d895c280971ef/public/p2.png) | ![Projects](https://raw.githubusercontent.com/samio11/samio_portfolio/a916a7b7eca18bb2ae77375cad3d895c280971ef/public/p3.png) |
+
+---
+
+## 🎓 Education & Timeline
+
+- **2019‑2020** – Chuadanga Government College (HSC, Science)  
+- **2021‑Present** – American International University‑Bangladesh (B.Sc. Computer Science, expected 2025)  
+- **2022** – Began learning HTML, CSS, JavaScript  
+- **2023‑2025** – Full‑Stack focus; built complex apps with Next.js, NestJS, TypeScript  
+
+*(See the full interactive timeline on the site.)*
+
+---
+
+## 📬 Contact & Social
+
+- **Email:** [samiohasan6@gmail.com](mailto:samiohasan6@gmail.com)  
+- **GitHub:** [github.com/samio11](https://github.com/samio11)  
+- **LinkedIn:** [linkedin.com/in/samio-hasan](https://www.linkedin.com/in/samio-hasan)  
+- **CV:** [Download PDF](https://raw.githubusercontent.com/samio11/samio_portfolio/a916a7b7eca18bb2ae77375cad3d895c280971ef/public/Samio_cv.pdf)
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License** – see the `LICENSE` file for details.
+
+---
+
+## 🙏 Acknowledgements
+
+- **Next.js** – awesome React framework.  
+- **Shadcn UI** – beautiful component primitives.  
+- **Tailwind CSS** – utility‑first styling.  
+- **Framer Motion** – fluid animations.  
+- **Lucide Icons** – crisp, open‑source icons.
+
+--- 
+
+*Happy coding! If you like the project, feel free to ⭐ the repo or reach out for collaborations.*  
+`````
