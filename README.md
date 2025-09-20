@@ -1,12 +1,18 @@
 
 # Samio Portfolio
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0fdfdfe6-50d9-42c3-a486-087518252cce" />
+
 
 
 A modern, sleek, and fully responsive portfolio built with **Next.js 15**, **React 19**, **Tailwind CSS 4**, and **TypeScript**.  
 Showcasing my journey as a Full‑Stack Developer, my projects, skills, and ways to get in touch.
 
 ---
+## 📂 Project Structure
+```
+https://samio-portfolio.vercel.app
+```
 
 ## ✨ Features
 
